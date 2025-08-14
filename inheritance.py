@@ -60,7 +60,7 @@ class Student(Person):
 x = Student("Riddhi", "Gorasiya", 2025)
 print(x.graduationyear)
 
-# Add Methods
+# Add methods
 
 class Person:
   def __init__(self, fname, lname):
