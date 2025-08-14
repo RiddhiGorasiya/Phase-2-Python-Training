@@ -56,6 +56,3 @@ print('Before modification:', p.name)
 setattr(p, 'name', 'Woozoo')
 
 print('After modification:', p.name)
-
-# delattr()
-
