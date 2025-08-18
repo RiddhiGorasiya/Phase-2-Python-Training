@@ -1,7 +1,7 @@
 Week 1: Object-Oriented Programming
 Day 1: Introduction to Classes and Objects(https://www.youtube.com/watch?v=HeW-D6KpDwY&t=174s)
 Day 2: Attributes and Methods(https://www.geeksforgeeks.org/python/accessing-attributes-methods-python/)
-Day 3: Inheritance and Method Overriding(https://www.w3schools.com/python/python_inheritance.asp)(https://www.geeksforgeeks.org/python/method-overriding-in-python/)
+Day 3: Inheritance and Method Overriding(https://www.w3schools.com/python/python_inheritance.asp)(https://www.geeksforgeeks.org/python/method-overriding-in-python/)(https://data-flair.training/blogs/python-inheritance/)
 Day 4: Polymorphism and Encapsulation
 Day 5: Practice OOP exercises
 Day 6-7: Start Project 1 - Basic Banking System
