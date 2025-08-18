@@ -1,3 +1,5 @@
+# Inheritance lets one class borrow from another. You write class Puppy(Dog): to say, “Puppy is a kind of Dog.” The new class gains all methods and data of Dog without rewriting them.
+
 class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -80,3 +82,19 @@ class Student(Person):
 
 x = Student("Riddhi", "Gorasiya", 2025)
 x.welcome()
+
+# types of inheritance
+# 1-Single Inheritance in Python
+x=0
+class fruit:
+  def __init__(self):
+  global x
+  x+=1
+  print("I'm a fruit")                         
+class citrus(fruit):
+  def __init__(self):
+  super().__init__()
+  global x
+  x+=2
+  print("I'm citrus")                           
+x
