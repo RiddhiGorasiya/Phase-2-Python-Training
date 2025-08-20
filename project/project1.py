@@ -89,30 +89,76 @@ class BankAccount:
         self.transactions = []   
         print("Welcome to the Machine")
 
+    # def deposit(self):
+    #     try:
+    #         amount = float(input("Enter amount to be Deposited: "))
+    #         if amount > 0:
+    #             self.balance += amount
+    #             self.transactions.append(
+    #                 (datetime.datetime.now(), f"Deposited: {amount}", self.balance)
+    #             )
+    #             print("\nAmount Deposited:", amount)
+    #         else:
+    #             print("Deposit amount must be positive.")
+    #     except ValueError:
+    #         print("Invalid input! Please enter a number.")
+
+    # def withdraw(self):
+    #     try:
+    #         amount = float(input("Enter amount to be withdrawn: "))
+    #         if amount > 0:
+    #             if self.balance >= amount:
+    #                 self.balance -= amount
+    #                 self.transactions.append(
+    #                     (datetime.datetime.now(), f"Withdrew: {amount}", self.balance)
+    #                 )
+    #                 print("\nYou withdrew:", amount)
+    #             else:
+    #                 print("\nInsufficient balance")
+    #         else:
+    #             print("Withdrawal amount must be positive.")
+    #     except ValueError:
+    #         print("Invalid input! Please enter a number.")
+    
     def deposit(self):
-        amount = float(input("Enter amount to be Deposited: "))
-        if amount > 0:
-            self.balance += amount
-            self.transactions.append(
-                (datetime.datetime.now(), f"Deposited: {amount}", self.balance)
-            )
-            print("\nAmount Deposited:", amount)
-        else:
-            print("Deposit amount must be positive.")
+        while True:
+            amount = input("Enter amount to be Deposited: ").strip()
+            if amount.replace('.', '', 1).isdigit():  # check if number (allows decimals)
+                amount = float(amount)
+                if amount > 0:
+                    self.balance += amount
+                    self.transactions.append(
+                        (datetime.datetime.now(), f"Deposited: {amount}", self.balance)
+                    )
+                    print("\nAmount Deposited:", amount)
+                    break
+                else:
+                    print("Deposit amount must be positive.")
+            else:
+                print("Invalid input! Please enter a valid number.")
+
 
     def withdraw(self):
-        amount = float(input("Enter amount to be withdrawn: "))
-        if amount > 0:
-            if self.balance >= amount:
-                self.balance -= amount
-                self.transactions.append(
-                    (datetime.datetime.now(), f"Withdrew: {amount}", self.balance)
-                )
-                print("\nYou withdrew:", amount)
+        while True:
+            amount = input("Enter amount to be Withdrawn: ").strip()
+            if amount.replace('.', '', 1).isdigit():  # check if number (allows decimals)
+                amount = float(amount)
+                if amount > 0:
+                    if self.balance >= amount:
+                        self.balance -= amount
+                        self.transactions.append(
+                            (datetime.datetime.now(), f"Withdrew: {amount}", self.balance)
+                        )
+                        print("\nYou withdrew:", amount)
+                        break
+                    else:
+                        print("Insufficient balance.")
+                        break
+                else:
+                    print("Withdrawal amount must be positive.")
             else:
-                print("\nInsufficient balance")
-        else:
-            print("Withdrawal amount must be positive.")
+                print("Invalid input! Please enter a valid number.")
+
 
     def show_transactions(self):
         if not self.transactions:
@@ -121,7 +167,7 @@ class BankAccount:
             print("\nTransaction History:")
             for t in self.transactions:
                 print(f"{t[0].strftime('%Y-%m-%d %H:%M:%S')} | {t[1]} | Balance: {t[2]}")
-                
+        
     def display(self):
         print("\nNet Available Balance =", self.balance)
 
