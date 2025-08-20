@@ -1,0 +1,1 @@
+Constructor: A constructor ( __init__() ) is a special type of method that is automatically called when an object of a class is created. Its primary purpose is to initialize the newly created object, setting initial values for its attributes or performing any necessary setup tasks.
