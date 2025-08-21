@@ -4,3 +4,13 @@ Day 2: Attributes and Methods(https://www.geeksforgeeks.org/python/accessing-att
 Day 3: Inheritance and Method Overriding(https://www.w3schools.com/python/python_inheritance.asp)(https://www.geeksforgeeks.org/python/method-overriding-in-python/)(https://data-flair.training/blogs/python-inheritance/)
 Day 4: Polymorphism and Encapsulation(https://www.w3schools.com/python/python_polymorphism.asp)(https://www.geeksforgeeks.org/python/encapsulation-in-python/)
 Day 5: Practice OOP exercises
+Day 6-7: Start Project 1 - Basic Banking System
+
+Week 2: Data Structures & Advanced Functions
+Day 8: Implementing Stacks and Queues manually(https://www.w3schools.com/python/python_dsa_stacks.asp)(https://www.geeksforgeeks.org/python/stack-and-queues-in-python/)
+Day 9: Implementing Linked Lists manually(https://www.w3schools.com/python/python_dsa_linkedlists.asp)(https://www.youtube.com/watch?v=oPGSvdyN6JE&t=104s)
+Day 10: Lambda, map(), filter(), and reduce()
+Day 11: Introduction to Decorators
+Day 12: Introduction to Generators
+Day 13-14: Practice Problems on Functional Programming, Complete Project 1 - Basic
+Banking System 
