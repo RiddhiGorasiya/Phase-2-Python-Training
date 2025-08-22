@@ -37,3 +37,29 @@ calc = lambda a, b:(a + b, a - b, a * b, a / b)
 res = calc(3, 4)
 print(res)
 
+# Map Reduce and Filter Operations in Python
+# Map Function in Python
+def double(n):
+    return n * 2
+number = [5, 2, 3, 8]
+result = map(double,number)
+print(list(result))
+
+# Reduce Function in Python
+import functools
+numbers = [1, 2, 3, 4]
+product = functools.reduce(lambda x, y: x * y, numbers)
+print("Product of list elements:", product)
+
+# Filter Function in Python
+def is_even(n):
+    return n % 2 == 0
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_num = filter(is_even, num)
+print("Even numbers:", list(even_num))
+
+def is_odd(n):
+    return n % 2 != 0
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+odd_num = filter(is_odd, num)
+print("Odd numbers:", list(odd_num))
