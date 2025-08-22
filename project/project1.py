@@ -171,7 +171,7 @@ class BankAccount:
     def display(self):
         print("\nNet Available Balance =", self.balance)
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
     s = BankAccount()       # create an object of BankAccount
     s.deposit()             # deposit money 
     s.withdraw()            # withdraw money  
