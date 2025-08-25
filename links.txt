@@ -11,6 +11,6 @@ Day 8: Implementing Stacks and Queues manually(https://www.w3schools.com/python/
 Day 9: Implementing Linked Lists manually(https://www.w3schools.com/python/python_dsa_linkedlists.asp)(https://www.youtube.com/watch?v=oPGSvdyN6JE&t=104s)
 Day 10: Lambda, map(), filter(), and reduce()(https://www.geeksforgeeks.org/python/python-lambda-anonymous-functions-filter-map-reduce/)(https://www.geeksforgeeks.org/python/map-reduce-and-filter-operations-in-python/)
 Day 11: Introduction to Decorators(https://www.geeksforgeeks.org/python/decorators-in-python/)(https://www.youtube.com/watch?v=PTBZ674EsvI)
-Day 12: Introduction to Generators
+Day 12: Introduction to Generators(https://www.geeksforgeeks.org/python/generators-in-python/)(https://www.youtube.com/watch?v=ixd-u3pmsUc)(https://www.programiz.com/python-programming/generator)
 Day 13-14: Practice Problems on Functional Programming, Complete Project 1 - Basic
 Banking System 
