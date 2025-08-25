@@ -65,3 +65,7 @@ def square(nums):
     for num in nums:
         yield num**2
 print(sum(square(fibonacci_numbers(10))))
+
+
+
+
