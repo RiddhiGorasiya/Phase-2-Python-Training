@@ -14,3 +14,11 @@ Day 11: Introduction to Decorators(https://www.geeksforgeeks.org/python/decorato
 Day 12: Introduction to Generators(https://www.geeksforgeeks.org/python/generators-in-python/)(https://www.youtube.com/watch?v=ixd-u3pmsUc)(https://www.programiz.com/python-programming/generator)
 Day 13-14: Practice Problems on Functional Programming, Complete Project 1 - Basic
 Banking System 
+
+Week 3: Databases & Web Scraping
+Day 15: SQLite Basics - Create DB, Insert, Query
+Day 16: Update and Delete Operations in SQLite
+Day 17: Connect Python to SQLite via sqlite3
+Day 18: Introduction to requests module
+Day 19: Introduction to BeautifulSoup for scraping
+Day 20-21: Extract headlines, paragraphs, and links, Start Project 3 - Mini Web Scraper
