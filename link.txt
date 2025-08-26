@@ -15,7 +15,7 @@ Day 12: Introduction to Generators(https://www.geeksforgeeks.org/python/generato
 Day 13-14: Practice Problems on Functional Programming, Complete Project 1 - Basic
 Banking System 
 
-Week 3: Databases & Web Scraping
+Week 3: Databases & Web Scring
 Day 15: SQLite Basics - Create DB, Insert, Query(https://www.geeksforgeeks.org/python/python-sqlite-insert-data/)(https://www.youtube.com/watch?v=X2wDnnZY0d4)
 Day 16: Update and Delete Operations in SQLite
 Day 17: Connect Python to SQLite via sqlite3
