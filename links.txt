@@ -16,7 +16,7 @@ Day 13-14: Practice Problems on Functional Programming, Complete Project 1 - Bas
 Banking System 
 
 Week 3: Databases & Web Scraping
-Day 15: SQLite Basics - Create DB, Insert, Query
+Day 15: SQLite Basics - Create DB, Insert, Query(https://www.geeksforgeeks.org/python/python-sqlite-insert-data/)(https://www.youtube.com/watch?v=X2wDnnZY0d4)
 Day 16: Update and Delete Operations in SQLite
 Day 17: Connect Python to SQLite via sqlite3
 Day 18: Introduction to requests module
