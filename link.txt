@@ -22,7 +22,3 @@ Day 17: Connect Python to SQLite via sqlite3
 Day 18: Introduction to requests module
 Day 19: Introduction to BeautifulSoup for scraping
 Day 20-21: Extract headlines, paragraphs, and links, Start Project 3 - Mini Web Scraper
-
-
-
-
