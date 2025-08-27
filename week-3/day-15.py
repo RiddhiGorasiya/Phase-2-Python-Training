@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to SQLite database
-conn = sqlite3.connect('sqlite.db')
+conn = sqlite3.connect("sqlite.db")
 cursor = conn.cursor()
 # Create table
 cursor.execute("""CREATE TABLE STUDENT(NAME VARCHAR(255), CLASS VARCHAR(255), SECTION VARCHAR(255))""")
