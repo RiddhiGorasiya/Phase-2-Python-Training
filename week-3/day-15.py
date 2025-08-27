@@ -98,3 +98,4 @@ for row in data:
 conn.commit()
 # Closing the connection
 conn.close()
+
