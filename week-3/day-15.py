@@ -1,17 +1,23 @@
+# Create Table
 import sqlite3
 
-# Connect to SQLite database
-conn = sqlite3.connect("sqlite.db")
-cursor = conn.cursor()
-# Create table
-cursor.execute("""CREATE TABLE STUDENT(NAME VARCHAR(255), CLASS VARCHAR(255), SECTION VARCHAR(255))""")
-# Insert data into the table
-cursor.execute("INSERT INTO STUDENT VALUES ('riddhi', '7th', 'A')")
-cursor.execute("INSERT INTO STUDENT VALUES ('disha', '8th', 'B')")
-cursor.execute("INSERT INTO STUDENT VALUES ('heni', '9th', 'C')")
-print("Data Inserted in the table: ")
-cursor.execute("SELECT * FROM STUDENT")
-for row in cursor.fetchall():
-    print(row)
-conn.commit()
-conn.close()
+# Connect to the SQLite database (or create it if it doesn't exist)
+connection_obj = sqlite3.connect('SQLite.db')
+cursor_obj = connection_obj.cursor()
+# SQL query to create the table
+table_creation_query = """
+    CREATE TABLE EMP (
+        Email VARCHAR(255) NOT NULL,
+        First_Name CHAR(25) NOT NULL,
+        Last_Name CHAR(25),
+        Score INT
+    );
+"""
+# Execute the table creation query
+cursor_obj.execute(table_creation_query)
+# Confirm that the table has been created
+print("Table is Ready")
+# Close the connection to the database
+connection_obj.close()
+
+# Insert Data
