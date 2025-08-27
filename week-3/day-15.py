@@ -15,3 +15,6 @@ for row in cursor.fetchall():
     print(row)
 conn.commit()
 conn.close()
+
+
+
