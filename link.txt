@@ -17,7 +17,7 @@ Banking System
 
 Week 3: Databases & Web Scring
 Day 15: SQLite Basics - Create DB, Insert, Query(https://www.geeksforgeeks.org/python/python-sqlite-creating-a-new-database/)(https://www.geeksforgeeks.org/python/python-sqlite/)
-Day 16: Update and Delete Operations in SQLite
+Day 16: Update and Delete Operations in SQLite(https://www.geeksforgeeks.org/python/python-sqlite/)
 Day 17: Connect Python to SQLite via sqlite3
 Day 18: Introduction to requests module
 Day 19: Introduction to BeautifulSoup for scraping
