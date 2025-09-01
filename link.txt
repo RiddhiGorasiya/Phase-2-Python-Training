@@ -20,5 +20,13 @@ Day 15: SQLite Basics - Create DB, Insert, Query(https://www.geeksforgeeks.org/p
 Day 16: Update and Delete Operations in SQLite(https://www.geeksforgeeks.org/python/python-sqlite/)
 Day 17: Connect Python to SQLite via sqlite3(https://www.geeksforgeeks.org/python/python-sqlite/)
 Day 18: Introduction to requests module(https://www.geeksforgeeks.org/python/python-requests-tutorial/)(https://www.youtube.com/watch?v=IzcEH8QgoqY)(https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request)
-Day 19: Introduction to BeautifulSoup for scraping
+Day 19: Introduction to BeautifulSoup for scraping(https://www.geeksforgeeks.org/python/implementing-web-scraping-python-beautiful-soup/)(https://www.youtube.com/watch?v=4tAp9Lu0eDI)(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)(https://www.geeksforgeeks.org/python/python-web-scraping-tutorial/)
 Day 20-21: Extract headlines, paragraphs, and links, Start Project 3 - Mini Web Scraper
+
+Week 4: GUI & Final Projects
+Day 22: Tkinter Basics - Window, Label, Button
+Day 23: Input Handling and Layouts
+Day 24: Building Forms with Tkinter
+Day 25: Start Project 2 - Weather App (API + Tkinter UI)
+Day 26: Complete Weather App and test API responses
+Day 27: Continue and complete Mini Web Scraper
