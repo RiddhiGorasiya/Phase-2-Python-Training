@@ -22,4 +22,5 @@ for price in price:
     print(price.string)
 
 print(soup.title)
-print(soup.title.name)  # title
+print(soup.title.name) 
+
