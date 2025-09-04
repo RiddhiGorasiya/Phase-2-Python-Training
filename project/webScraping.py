@@ -23,4 +23,3 @@ for price in price:
 
 print(soup.title)
 print(soup.title.name) 
-
