@@ -1,7 +1,7 @@
-# # import tkinter as tk  # another way to import tkinter
-# # win = tk.Tk()
-# # # widgets are added here
-# # win.mainloop()
+# import tkinter as tk  # another way to import tkinter
+# win = tk.Tk()
+# # widgets are added here
+# win.mainloop()
 
 # from tkinter import*
 
@@ -81,18 +81,124 @@
 # scrollbar.config(command=mylist.yview)
 # mainloop()
 
-# menu
-from tkinter import *
-root =Tk()
-menu = Menu(root)
-root.config(menu=menu)
-filemenu = Menu(menu)
-menu.add_cascade(label='File', menu=filemenu)
-filemenu.add_command(label='New')
-filemenu.add_command(label='Open...')
-filemenu.add_separator()
-filemenu.add_command(label='Exit', command=root.quit)
-helpmenu = Menu(menu)
-menu.add_cascade(label='Help', menu=helpmenu)
-helpmenu.add_command(label='About')
+# # menu
+# from tkinter import *
+# root =Tk()
+# menu = Menu(root)
+# root.config(menu=menu)
+# filemenu = Menu(menu)
+# menu.add_cascade(label='File', menu=filemenu)
+# filemenu.add_command(label='New')
+# filemenu.add_command(label='Open...')
+# filemenu.add_separator()
+# filemenu.add_command(label='Exit', command=root.quit)
+# helpmenu = Menu(menu)
+# menu.add_cascade(label='Help', menu=helpmenu)
+# helpmenu.add_command(label='About')
+# mainloop()
+
+# # combo box
+# import tkinter as tk
+# from tkinter import ttk
+
+# def select(event):
+#     selected_item = combo_box.get()
+#     label.config(text="Selected Item: " + selected_item)
+
+# root = tk.Tk()
+# root.title("Combobox Example")
+
+# # Create a label
+# label = tk.Label(root, text="Selected Item: ")
+# label.pack(pady=10)
+
+# # Create a Combobox widget
+# combo_box = ttk.Combobox(root, values=["Option 1", "Option 2", "Option 3"], state='readonly')
+# combo_box.pack(pady=5)
+
+# # Set default value
+# combo_box.set("Option 1")
+
+# # Bind event to selection
+# combo_box.bind("<<ComboboxSelected>>", select)
+# root.mainloop()
+
+# scale
+# from tkinter import *
+# master = Tk()
+# w = Scale(master, from_=0, to=100)
+# w.pack()
+# w = Scale(master, from_=0, to=200, orient=HORIZONTAL)
+# w.pack()
+# mainloop()
+
+# # toplvel
+# from tkinter import *
+# root = Tk()
+# root.title('PHASE-1')
+# top = Toplevel()
+# top.title('PHASE-2')
+# top.mainloop()
+
+# # message box
+# from tkinter import *
+# main = Tk()
+# ourMessage = 'This is our Message'
+# messageVar = Message(main, text=ourMessage)
+# messageVar.config(bg='lightgreen')
+# messageVar.pack()
+# main.mainloop()
+
+# # menubutton
+# from tkinter import *
+# top = Tk()
+# mb = Menubutton(top, text = "Python Training")
+# mb.grid()
+# mb.menu = Menu(mb, tearoff = 0)
+# mb["menu"] = mb.menu
+# cVar = IntVar()
+# aVar = IntVar()
+# mb.menu.add_checkbutton(label='Contact', variable=cVar)
+# mb.menu.add_checkbutton(label='About Us', variable=aVar)
+# mb.pack()
+# top.mainloop()
+
+# # progressbar
+# import tkinter as tk
+# from tkinter import ttk
+# import time
+
+# def strat_progress():
+#     progress.start()
+
+#     for i in range(101):
+#         time.sleep(0.05)
+#         progress['value'] = i
+#         root.update_idletasks()
+#     progress.stop()
+
+# root = tk.Tk()
+# root.title("Progress Example")
+
+# progress = ttk.Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate')
+# progress.pack(pady=20)
+
+# strat_button = tk.Button(root, text="Start Progress", command=strat_progress)
+# strat_button.pack(pady=10)
+# root.mainloop()
+
+# # spinbox
+# from tkinter import *
+# master = Tk()
+# w = Spinbox(master, from_=0, to=10)
+# w.pack()
+# mainloop()
+
+# text
+from tkinter import*
+root = Tk()
+T = Text(root, height=5, width=30)
+T.pack()
+T.insert(END, "Welcome to \nBest Website")
 mainloop()
+
