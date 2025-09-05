@@ -24,7 +24,7 @@ Day 19: Introduction to BeautifulSoup for scraping(https://www.geeksforgeeks.org
 Day 20-21: Extract headlines, paragraphs, and links, Start Project 3 - Mini Web Scraper
 
 Week 4: GUI & Final Projects
-Day 22: Tkinter Basics - Window, Label, Button
+Day 22: Tkinter Basics - Window, Label, Button(https://www.geeksforgeeks.org/python/python-gui-tkinter/)(https://www.youtube.com/watch?v=4S6U-CW-IqI&t=24s)
 Day 23: Input Handling and Layouts
 Day 24: Building Forms with Tkinter
 Day 25: Start Project 2 - Weather App (API + Tkinter UI)
